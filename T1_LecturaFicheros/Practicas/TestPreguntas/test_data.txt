@@ -1,0 +1,15 @@
+¿Qué color es el cielo?
+Azul
+Verde
+Rojo
+0
+¿Cuántos días tiene una semana?
+5
+7
+10
+1
+¿Quién es el autor de "Cien Años de Soledad"?
+Gabriel García Márquez
+Mario Vargas Llosa
+Julio Cortázar
+0

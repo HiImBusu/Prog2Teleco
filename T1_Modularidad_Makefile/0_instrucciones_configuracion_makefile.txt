@@ -1,0 +1,9 @@
+Instrucciones:
+
+Para usar la aplicación 'make' desde la línea de comandos en Windows, hay que añadir la ruta donde se encuentra la aplicación al 'Path'. 
+
+Para ello, habrá que editar las 'variables de entorno del sistema'. Estas variables están en "Propiedades del sistema" -> "Opciones Avanzadas" -> "Variables de entorno" -> "Path", editáis el 'Path' y añadía al final la ruta que será "C:\Program Files (x86)\GnuWin32\bin".
+
+Enlace para la descarga:
+
+https://sourceforge.net/projects/gnuwin32/files/make/3.81/make-3.81.exe/download?use_mirror=netix&download=
