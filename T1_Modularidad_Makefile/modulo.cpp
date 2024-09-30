@@ -19,7 +19,7 @@ namespace Unitec{
         // }   
         std::cout << "Nombre: ";
         getline(std::cin, p.nombre, '\n');
-        std::cout << "Edad";
+        std::cout << "Edad: ";
         std::cin >> p.edad;
     }
 

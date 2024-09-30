@@ -1,9 +1,6 @@
-
-
-
 // 1. Si no esta definido ya el modulo en nuestra compilacion, lo metemos (siempre lo pondremos y generalmente nos lo daran hecho en la plantilla)
-#ifndef __MODULO__
-#define __MODULO__
+#ifndef __MODULO__H
+#define __MODULO__H
 
 // 2. Bibliotecas que necesitemos DENTRO de este modulo
 #include <string>
@@ -21,7 +18,6 @@ namespace Unitec{
     void leerPersona(TPersona& p); // Leemos los datos de la persona por consola y devolvemos un TPersona relleno
     void imprimirPersona(const TPersona& p); // Mostramos los datos de la persona por pantalla
     int suma(int a, int b); // Funcion que suma dos numeros enteros
-
 }
 
 #endif
