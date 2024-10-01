@@ -1,0 +1,10 @@
+Aragorn II Elessar; 12345; 87; 10
+Frodo Bolsón; 54321; 50; 9
+Samwise Gamyi; 67890; 38; 9
+Legolas Verdeflor; 98765; 2931; 10
+Boromir de Gondor; 45678; 40; 8
+Gimli, hijo de Glóin; 13579; 139; 9
+Meriadoc Brandigamo; 24680; 36; 7
+Peregrin Tuk; 11223; 29; 7
+Faramir de Gondor; 99887; 36; 8
+Théoden Ednew; 77654; 71; 9
