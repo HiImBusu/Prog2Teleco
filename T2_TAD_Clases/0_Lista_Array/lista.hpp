@@ -25,6 +25,7 @@
  *      - Generar un fichero (con el mismo formato que el apartado anterior) con los datos de los alumnos almacenados en la lista
  */
 
+#include <string>
 #include <array>
 
 namespace Unitec{
@@ -38,7 +39,9 @@ namespace Unitec{
     const int MAX_ALUMNOS = 100;
     typedef std::array<Alumno, MAX_ALUMNOS> ArrayAlumnos;
     typedef struct{
+        // [a1, a2, a3, a4, ......]
         ArrayAlumnos alumnos;
+        // 4
         int n_alumnos;
     }ListaAlumnos;
 
@@ -60,7 +63,7 @@ namespace Unitec{
     // Recorrer la lista de alumnos buscando los que cumplan cierto criterio. Por ejemplo, buscar cuantos tienen mas de x años
     int alumnos_mayores(const ListaAlumnos& lista, int edad_minima);
     // Recorrer la lista, calcular la media de las notas
-    int media_notas(const ListaAlumnos& lista);
+    float media_notas(const ListaAlumnos& lista);
     // Insertar al alumno en la lista EN UNA POSICION DETERMINADA
     void insertar_posicion(ListaAlumnos& lista, const Alumno& al, int indice);
     // Eliminar a un alumno de nuestra lista
